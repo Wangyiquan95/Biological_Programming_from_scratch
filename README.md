@@ -1,11 +1,12 @@
 # Framework of Programming for Biology
 
 ## Contents
-* [Local igblast setup](#local-igblast-setup)   
+* [Programming languages](#Programming-languages)   
+* [Important envirnment management Software](#Important-envirnment-management-Software)   
+* [Important packages](#Important-packages)   
+* [Applications](#Applications)   
 
-
-
-## 1 Programming language requirements
+## 1 Programming languages
 ```
 ###---Main goal---###
 Learn the basic usage of each language
@@ -21,7 +22,7 @@ Learn the basic usage of each language
 - shell
 
 ## Recommendation books and websites
-- [Computing Skills for Biologists_ A Toolbox.pdf](./text_book/Computing Skills for Biologists_ A Toolbox.pdf)
+- [Computing Skills for Biologists_ A Toolbox.pdf](./text_book/Computing\ Skills\ for\ Biologists_\ A\ Toolbox.pdf)
 
 ## 2 Important envirnment management Software
 
@@ -42,16 +43,16 @@ comments: pycharm is a powerful IDE for different programming languages (support
 
 - Anaconda(https://www.anaconda.com/products/individual)
 
-'''
+```
 comments: anaconda is used to manage python package and manage enviroments
-'''
+```
 
-## 3 Important packages(understand the main functions of each package)
+## 3 Important packages
 
-'''
+```
 ###---Main goal---###
 understand the main functions of each package
-'''
+```
 ### 3-1 python packages
 
 - Biopython
@@ -74,11 +75,11 @@ understand the main functions of each package
 - ggpubr
 
 
-## 4 Applications (Toy data)
+## 4 Applications
 
 ```
 ###---Main goal---###
 run and test some toy experiments
 ```
-### 4-1 Bioinformatics
-### 4-2 Machine learning
+### 4-1 Bioinformatics (Toy data)
+### 4-2 Machine learning (Toy data)
