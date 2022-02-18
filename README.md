@@ -10,19 +10,21 @@
 ```
 ###---Main goal---###
 Learn the basic usage of each language
-- understand datatype,variable
+- understand data types,variables
 - understand loop
 - understand condition
 - learn to use terminal
 ```
 ## Programming languages
 
-- python
+- Python
 - R
 - shell
 
 ## Recommendation books and websites
-- [./text_book/Computing\ Skills\ for\ Biologists_\ A\ Toolbox.pdf](./text_book/Computing\ Skills\ for\ Biologists_\ A\ Toolbox.pdf)
+- Python Programming website (https://www.w3schools.com/python/python_variables.asp)
+- R Programming Website (https://daviddalpiaz.github.io/appliedstats/introduction-to-r.html)
+- [Computing Skills for Biologists A Toolbox](./text_book/Computing_Skills_for_Biologists_A_Toolbox.pdf)
 
 ## 2 Important envirnment management Software
 
