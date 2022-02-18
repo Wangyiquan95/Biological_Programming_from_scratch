@@ -1,26 +1,30 @@
-###### Framework of programming for biology ######
+# Framework of programming for biology
+## Contents
+* [Local igblast setup](#local-igblast-setup)   
 
-#1 programming language requirements (learn the basic usage of each language)
+
+
+# 1 Programming language requirements (learn the basic usage of each language)
 ##----main goal----##
-## understand datatype,variable
-## understand loop
-## understand condition
-## learn to use terminal
+- understand datatype,variable
+- understand loop
+- understand condition
+- learn to use terminal
 
-##1-1 languages
+## program languages
 -python
 -R
 -shell
 
-##1-2 recommendation books and websites
--Computing Skills for Biologists_ A Toolbox.pdf
+## recommendation books and websites
+-[Computing Skills for Biologists_ A Toolbox.pdf](./text_book/Computing\ Skills\ for\ Biologists\_\ A\ Toolbox\.pdf)
 
-#2 important envirnment management Software
+# 2 Important envirnment management Software
 ##----main goal----##
-## learn to use programming supportive platform
-## learn to manage environments and packages
+- learn to use programming supportive platform
+- learn to manage environments and packages
 
-##2-1 Integrated development environment(IDE) Software
+## 2-1 Integrated development environment(IDE) Software
 
 -pycharm (https://www.jetbrains.com/pycharm/)
 #comments: pycharm is a powerful IDE for different programming languages (support Python, R, etc.). It is used for code writing, testing and debugging.
