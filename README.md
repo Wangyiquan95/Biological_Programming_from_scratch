@@ -1,4 +1,4 @@
-# Framework of Programming for Biology
+# Guideline of Programming for Biology
 
 ## Contents
 * [1 Programming languages](#1-Programming-languages)   
@@ -22,7 +22,7 @@ Learn the basic usage of each language
 - shell
 
 ## Recommendation books and websites
-- [Computing Skills for Biologists_ A Toolbox.pdf](./text_book/Computing\ Skills\ for\ Biologists_\ A\ Toolbox.pdf)
+- [./text_book/Computing\ Skills\ for\ Biologists_\ A\ Toolbox.pdf](./text_book/Computing\ Skills\ for\ Biologists_\ A\ Toolbox.pdf)
 
 ## 2 Important envirnment management Software
 
