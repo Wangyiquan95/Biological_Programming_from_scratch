@@ -55,7 +55,7 @@ comments: anaconda is useful tool for  python packages and enviroments managemen
 comments: pycharm is a powerful IDE for different programming languages (support Python, R, etc.). It is used for code writing, testing and debugging.
 ```
 
-### 2-2 Version control
+### 2-3 Version control
 
 - git and github (https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
 - add VS on Pycharm (https://www.jetbrains.com/help/pycharm/version-control-integration.html)
