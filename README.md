@@ -1,10 +1,10 @@
 # Framework of Programming for Biology
 
 ## Contents
-* [Programming languages](#Programming-languages)   
-* [Important envirnment management Software](#Important-envirnment-management-Software)   
-* [Important packages](#Important-packages)   
-* [Applications](#Applications)   
+* [1 Programming languages](#1-Programming-languages)   
+* [2 Important envirnment management Software](#2-Important-envirnment-management-Software)   
+* [3 Important packages](#3-Important-packages)   
+* [4 Applications](#4-Applications)   
 
 ## 1 Programming languages
 ```
