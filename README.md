@@ -1,62 +1,87 @@
-###### Framework of programming for biology ######
+# Guideline of Programming for Biology
 
-#1 programming language requirements (learn the basic usage of each language)
-##----main goal----##
-## understand datatype,variable
-## understand loop
-## understand condition
-## learn to use terminal
+## Contents
+* [1 Programming languages](#1-Programming-languages)   
+* [2 Important envirnment management Software](#2-Important-envirnment-management-Software)   
+* [3 Important packages](#3-Important-packages)   
+* [4 Applications](#4-Applications)   
 
-##1-1 languages
--python
--R
--shell
+## 1 Programming languages
+```
+###---Main goal---###
+Learn the basic usage of each language
+- understand data types,variables
+- understand loop
+- understand condition
+- learn to use terminal
+```
+## Programming languages
 
-##1-2 recommendation books and websites
--Computing Skills for Biologists_ A Toolbox.pdf
+- Python
+- R
+- shell
 
-#2 important envirnment management Software
-##----main goal----##
-## learn to use programming supportive platform
-## learn to manage environments and packages
+## Recommendation books and websites
+- Python Programming website (https://www.w3schools.com/python/python_variables.asp)
+- R Programming Website (https://daviddalpiaz.github.io/appliedstats/introduction-to-r.html)
+- [Computing Skills for Biologists A Toolbox](./text_book/Computing_Skills_for_Biologists_A_Toolbox.pdf)
 
-##2-1 Integrated development environment(IDE) Software
+## 2 Important envirnment management Software
 
--pycharm (https://www.jetbrains.com/pycharm/)
-#comments: pycharm is a powerful IDE for different programming languages (support Python, R, etc.). It is used for code writing, testing and debugging.
+```
+###---Main goal---###
+- learn to use programming supportive platform
+- learn to manage environments and packages
+```
+### 2-1 Integrated development environment(IDE) Software
 
-##2-2 programming packages management Software
+- Pycharm (https://www.jetbrains.com/pycharm/)
 
--Anaconda(https://www.anaconda.com/products/individual)
-#comments: anaconda is used to manage python package and manage enviroments
+```
+comments: pycharm is a powerful IDE for different programming languages (support Python, R, etc.). It is used for code writing, testing and debugging.
+```
 
-#3 some important packages(understand the main functions of each package)
+### 2-2 programming packages management Software
 
-##3-1 python packages
-##----main goal----##
-## understand main function of different packages
--Biopython
--Pandas
--prody
--Igblast
--PyIR
--git
--snakemake
--numpy
--scikit-learn
--pytorch
--tensorflow
+- Anaconda(https://www.anaconda.com/products/individual)
+
+```
+comments: anaconda is used to manage python package and manage enviroments
+```
+
+## 3 Important packages
+
+```
+###---Main goal---###
+understand the main functions of each package
+```
+### 3-1 python packages
+
+- Biopython
+- Pandas
+- prody
+- Igblast
+- PyIR
+- git
+- snakemake
+- numpy
+- scikit-learn
+- pytorch
+- tensorflow
 
 
-##3-2 R packages
--ggplot2
--dplyr
--ggpubr
+### 3-2 R packages
+
+- ggplot2
+- dplyr
+- ggpubr
 
 
-#4 Applications (Toy data)
-##----main goal----##
-## run and test some toy experiments
+## 4 Applications
 
-##4-1 Bioinformatics
-##4-2 Machine learning
+```
+###---Main goal---###
+run and test some toy experiments
+```
+### 4-1 Bioinformatics (Toy data)
+### 4-2 Machine learning (Toy data)
