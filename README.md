@@ -4,7 +4,8 @@
 * [1 Programming languages](#1-Programming-languages)   
 * [2 Important envirnment management Software](#2-Important-envirnment-management-Software)   
 * [3 Important packages](#3-Important-packages)   
-* [4 Applications](#4-Applications)   
+* [4 Applications](#4-Applications)
+* [5 Quick references](#5-quick-references)
 
 ## 1 Programming languages
 ```
@@ -113,7 +114,7 @@ run and test some toy experiments
 - Deep learning model for antigen identification (https://github.com/nicwulab/SARS-CoV-2_Abs)
 - H3N2 NA antigenic region DMS regression (https://github.com/Wangyiquan95/NA_EPI)
 
-## QUICK REFERENCES
+## 5 QUICK REFERENCES
 
 ### ssh connection
 If you've never run `ssh` before, you will need to create a `.ssh` directory. Run
