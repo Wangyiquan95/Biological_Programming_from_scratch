@@ -63,7 +63,7 @@ comments: pycharm is a powerful IDE for different programming languages (support
 ```
 comments: verson control is extremely important since it will track all changes you made to the files
 ```
-## 3 Important packages
+## 3 Common packages
 
 ```
 ###---Main goal---###
@@ -109,5 +109,101 @@ run and test some toy experiments
 - H3N2 HA egg-passaging adaptation (https://github.com/Wangyiquan95/HA_egg_passage)
 - SARS-CoV-2 cell culture-adaptive mutations (https://github.com/nicwulab/SARS-CoV-2_in_vitro_adaptation)
 ### 4-2 Machine learning
+- An explainable language model for antibody specificity prediction (https://github.com/Wangyiquan95/HA1)
 - Deep learning model for antigen identification (https://github.com/nicwulab/SARS-CoV-2_Abs)
 - H3N2 NA antigenic region DMS regression (https://github.com/Wangyiquan95/NA_EPI)
+
+## QUICK REFERENCES
+
+### ssh connection
+If you've never run `ssh` before, you will need to create a `.ssh` directory. Run
+
+```bash
+mkdir -p ~/.ssh && chmod 700 ~/.ssh
+```
+Create `config` inside `.ssh` directory by
+```
+touch ~/.ssh/config
+chmod 600 ~/.ssh/config
+```
+Add server info into `config`
+```
+Host wulab
+    HostName nicwulab-linux.life.illinois.edu
+    User id
+    Port 22
+```
+To log in to the server, in the terminal, run
+
+```bash
+ssh wulab
+```
+### move files 
+To copy from your computer to a (remote) server. Run(Change the path accordingly)
+```
+scp ~/local/path id@nicwulab-linux.life.illinois.edu:/home/server/path
+```
+or download files from server. Run
+```
+scp -r id@nicwulab-linux.life.illinois.edu:/home/server/path ~/local/path
+```
+### install miniconda
+Download [`miniconda`](https://docs.conda.io/en/latest/miniconda.html):
+```bash
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+```
+Install by 
+```bash
+bash Miniconda3-latest-Linux-x86_64.sh
+```
+Create new env by
+```bash
+conda create --name Env_name python=3.9
+conda activate Env_name
+```
+Remove env by
+```bash
+conda remove --name myenv --all
+```
+Create new env using yml by
+```bash
+conda env create -f environment.yml
+```
+Save conda env as yml by
+```bash
+conda activate my_env
+conda env export > path/to/environment.yml
+```
+### git
+git init and connect to github repo by
+```bash
+git init 
+git add README.md
+git commit -m "README.md"
+git branch -M main
+git remote add origin <repository-url>
+```
+git remove files by
+```bash
+git rm --cached file.csv
+git commit -m "Removed files"
+
+git push -u <remote> <branch>
+```
+fetch and merge from github by
+```bash
+git fetch <remote>
+git merge <remote>/<branch>
+```
+### jupyter lab/notebook
+Connect to server and initialize juypter lab by
+```bash
+ssh wulab
+jupyter notebook --no-browser --port=8080
+jupyter lab --no-browser --port=8080
+```
+Open another local terminal and connect it by
+```bash
+ssh -N -L 8080:localhost:8080 id@nicwulab-linux.life.illinois.edu
+```
+Copy the Jupyter lab URL that appears, and paste it into your web browser.
