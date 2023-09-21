@@ -1,4 +1,4 @@
-# Guideline of Programming for Biology
+# Guideline of Programming for Biologists
 
 ## Contents
 * [1 Programming languages](#1-Programming-languages)   
