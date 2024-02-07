@@ -12,16 +12,30 @@
 ```
 ###---Main goal---###
 Learn the basic usage of each language
-- understand data types,variables
-- understand loop
-- understand condition
+- understand data types,variables,loop,
 - learn to use terminal
+
+Python Programming:
+- Basics:
+Variables, Data Types, and Operators
+Control Flow (if statements, loops)
+Functions and Modules
+- Intermediate:
+Lists, Dictionaries, and Sets
+File Handling
+Exception Handling
+- Advanced:
+Object-Oriented Programming (OOP)
+Decorators and Generators
+Virtual Environments
+
 ```
 ## Programming languages
 
 - Python
 - R
 - shell
+
 
 ## Recommendation books and websites
 ```
@@ -111,6 +125,23 @@ run and test some toy experiments
 - H3N2 HA egg-passaging adaptation (https://github.com/Wangyiquan95/HA_egg_passage)
 - SARS-CoV-2 cell culture-adaptive mutations (https://github.com/nicwulab/SARS-CoV-2_in_vitro_adaptation)
 ### 4-2 Machine learning
+```
+###---Main goal---###
+- Fundamentals:
+Supervised vs. Unsupervised Learning
+Types of Machine Learning Algorithms (self-supervised, generative,etc)
+Training and Testing Data
+- Common Models:
+Transformer
+GPT
+BERT
+GNN
+Difussion
+- Evaluation and Optimization:
+Metrics (Accuracy, Precision, Recall)
+Wanb (Visualization)
+Hyperparameter Tuning
+```
 - An explainable language model for antibody specificity prediction (https://github.com/Wangyiquan95/HA1)
 - Deep learning model for antigen identification (https://github.com/nicwulab/SARS-CoV-2_Abs)
 - H3N2 NA antigenic region DMS regression (https://github.com/Wangyiquan95/NA_EPI)
