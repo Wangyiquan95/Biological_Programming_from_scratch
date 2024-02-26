@@ -145,6 +145,17 @@ Hyperparameter Tuning
 - An explainable language model for antibody specificity prediction (https://github.com/Wangyiquan95/HA1)
 - Deep learning model for antigen identification (https://github.com/nicwulab/SARS-CoV-2_Abs)
 - H3N2 NA antigenic region DMS regression (https://github.com/Wangyiquan95/NA_EPI)
+### 4-3 Web development
+```
+###---Main goal---###
+- goals:
+Build home website for running deep learning model on the server (AWS EC2)
+1. Set Up an AWS EC2 Instance
+2. Install Necessary Software (conda)
+3. Develop the Web Application (Flask)
+4. overview
+flask --> gunicorn <--> nginx <--> requests
+```
 
 ## 5 QUICK REFERENCES
 
@@ -240,6 +251,60 @@ Open another local terminal and connect it by
 ssh -N -L 8080:localhost:8080 id@nicwulab-linux.life.illinois.edu
 ```
 Copy the Jupyter lab URL that appears, and paste it into your web browser.
+### setup service for gunicorn
+```bash
+sudo nano /etc/systemd/system/helloworld.service
+```
+Then add this into the file.
+```bash
+[Unit]
+Description=Gunicorn instance for a simple hello world app
+After=network.target
+[Service]
+User=ubuntu
+Group=www-data
+WorkingDirectory=/home/ubuntu/helloworld
+ExecStart=/home/ubuntu/helloworld/venv/bin/gunicorn -b localhost:8000 app:app
+Restart=always
+[Install]
+WantedBy=multi-user.target
+```
+Then enable the service:
+```bash
+sudo systemctl daemon-reload
+sudo systemctl start helloworld
+sudo systemctl enable helloworld
+```
+### Nginx Webserver route request to gunicorn
+Install Nginx 
+```bash
+sudo apt-get nginx
+```
+Start the Nginx service and go to the Public IP address of your EC2 on the browser to see the default nginx landing page
+```bash
+sudo systemctl start nginx
+sudo systemctl enable nginx
+```
+Edit the default file in the sites-available folder.
+```bash
+sudo nano /etc/nginx/sites-available/default
+```
+Add the following code at the top of the file (below the default comments)
+```bash
+upstream flaskhelloworld {
+    server 127.0.0.1:8000;
+}
+```
+Add a proxy_pass to flaskhelloworld atlocation /
+```bash
+location / {
+    proxy_pass http://flaskhelloworld;
+}
+```
+Restart Nginx 
+```bash
+sudo systemctl restart nginx
+```
 
 ## 6 Tools
 coming soon ~
